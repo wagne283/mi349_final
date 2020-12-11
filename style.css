@@ -114,6 +114,7 @@ main {
     border: 5px solid #000000;
     box-sizing: border-box;
     border-radius: 25px;
+    overflow: auto;
 }
 
 /* Hide the Google branding in search results */
