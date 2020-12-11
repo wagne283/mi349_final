@@ -128,6 +128,7 @@ main {
 
 .gcse-searchresults {
     max-height: 100%;
+    resultSetSize: small;
 }
 
 
