@@ -28,7 +28,6 @@ main {
     border-radius: 50%;
     box-sizing: border-box;
     box-shadow: -12px -12px 35px #3D4356, 12px 12px 35px rgba(25, 41, 86, 0.2), inset -12px -12px 25px #41475B;
-    filter: blur(15px);
 }
 
 .wave2 {
@@ -44,7 +43,6 @@ main {
     border-radius: 50%;
     box-sizing: border-box;
     box-shadow: -12px -12px 35px #3D4356, 12px 12px 35px rgba(25, 41, 86, 0.2), inset -12px -12px 25px #41475B;
-    filter: blur(15px);
 }
 
 .wave3 {
