@@ -83,7 +83,7 @@ main {
     top: 100px; left: 0; bottom: 0; right: 0;
     margin: auto;
     margin-top: 25px;
-    width: 80%;
+    width: 85%;
     max-height: 80vh;
 }
 
@@ -127,7 +127,7 @@ main {
 }
 
 .gcse-searchresults-only {
-    max-height: 90%;
+    max-width: 90%;
 }
 
 
