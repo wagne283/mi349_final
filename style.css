@@ -112,7 +112,7 @@ main {
     background: #FFFFFF;
     border: 5px solid #000000;
     box-sizing: border-box;
-    border-radius: 25px;
+    border-radius: 10px;
     overflow: auto;
 }
 
