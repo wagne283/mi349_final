@@ -126,12 +126,6 @@ main {
     display: none;
 }
 
-/* Add a border between individual search results */
-.gs-webResult {
-    border: 1px solid #eee;
-    padding: 1em;
-}
-
 /* Do no display the count of search results */
 .gsc-result-info {
     display: none;
