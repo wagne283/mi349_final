@@ -1,0 +1,156 @@
+html {
+    background: #555D77;
+}
+header {
+    background: #000;
+    opacity: 0.5;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    width: 100%;
+}
+
+.wave1 {
+    /* Ellipse 1 */
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+
+    border: 30px solid #555D77;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: -12px -12px 35px #3D4356, 12px 12px 35px rgba(25, 41, 86, 0.2), inset -12px -12px 25px #41475B;
+    filter: blur(15px);
+}
+
+.wave2 {
+    /* Ellipse 2 */
+
+    position: absolute;
+    width: 900px;
+    height: 900px;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+
+    border: 30px solid #555D77;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: -12px -12px 35px #3D4356, 12px 12px 35px rgba(25, 41, 86, 0.2), inset -12px -12px 25px #41475B;
+    filter: blur(15px);
+}
+
+.wave3 {
+    /* Ellipse 3 */
+
+    position: relative;
+    width: 1300px;
+    height: 1300px;
+    margin: 0 auto;
+    left: 50%;
+    margin-left: -650px;
+
+    border: 30px solid #555D77;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: -12px -12px 35px #3D4356, 12px 12px 35px rgba(25, 41, 86, 0.2), inset -12px -12px 25px #41475B;
+    filter: blur(15px);
+}
+
+.centerContent {
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    margin: auto;
+    width: 500px;
+    height: 100px;
+}
+
+.input {
+    position: relative;
+    width: 400px;
+    height: 80px;
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 10px;
+
+    background: #FFFFFF;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+/* Hide the Google branding in search results */
+.gcsc-branding {
+    display: none;
+}
+
+/* Hide the snippets in Google search results */
+.gs-snippet {
+    display: none;
+}
+
+form button {
+    float: right;
+    height: 20px;
+    margin-top: -20px;
+    margin-right: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.title {
+    text-align: center;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+    margin-top: 4px;
+}
+
+.aboutButton {
+    position: relative;
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: red;
+    text-align: center;
+
+    width: 80px;
+    height: 40px;
+
+    background: #FFFFFF;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+div.about {
+    position: absolute;
+    text-align: center;
+    top: 0; left: 0; bottom: 0; right: 0;
+
+    width: 50%;
+    height: 10%;
+    margin: auto;
+    background: #FFFFFF;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
