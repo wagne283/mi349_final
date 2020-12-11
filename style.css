@@ -126,9 +126,8 @@ main {
     display: none;
 }
 
-.gcse-searchresults {
+.gcse-searchresults-only {
     max-height: 100%;
-    resultSetSize: small;
 }
 
 
