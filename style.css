@@ -1,5 +1,7 @@
 html {
     background: #555D77;
+    max-width: 100%;
+    overflow: hidden;
 }
 header {
     background: #000;
@@ -54,6 +56,7 @@ main {
     margin: 0 auto;
     left: 50%;
     margin-left: -650px;
+    margin-top: -100px;
 
     border: 30px solid #555D77;
     border-radius: 50%;
@@ -62,12 +65,27 @@ main {
     filter: blur(15px);
 }
 
+.waves {
+    max-width: 100;
+    overflow: hidden;
+}
+
 .centerContent {
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
     margin: auto;
     width: 500px;
     height: 100px;
+}
+
+.centerContentResult {
+    position: absolute;
+    top: 100px; left: 0; bottom: 0; right: 0;
+    margin: auto;
+    margin-top: 25px;
+    width: 80%;
+    max-height: 80vh;
+    background: red;
 }
 
 .input {
@@ -84,6 +102,20 @@ main {
     border-radius: 50px;
 }
 
+.output {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 10px;
+
+    background: #FFFFFF;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
 /* Hide the Google branding in search results */
 .gcsc-branding {
     display: none;
@@ -92,6 +124,10 @@ main {
 /* Hide the snippets in Google search results */
 .gs-snippet {
     display: none;
+}
+
+.gcse-searchresults {
+    max-height: 100%;
 }
 
 
@@ -119,9 +155,10 @@ input {
 }
 
 .aboutButton {
-    position: relative;
+    position: absolute;
     margin: auto;
-    margin-bottom: 50px;
+    top: 0; left: 0; bottom: 0; right: 0;
+    margin-bottom: 10px;
     background-color: red;
     text-align: center;
 
